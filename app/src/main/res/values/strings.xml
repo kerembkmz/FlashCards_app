@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FlashCards</string>
+    <string-array name="card_names_array">
+        <item>Colors</item>
+        <item>Numbers</item>
+        <item>Jobs</item>
+        <item>Animals</item>
+        <item>Clothes</item>
+        <item>Food</item>
+        <item>Activities</item>
+        <item>Law Terms</item>
+        <item>Networking Terms</item>
+        <item>Object Oriented Programming</item>
+        <item>Differential Equations Problem Set</item>
+        <item>Health Flashcards</item>
+        <item>Econ 102 Class FlashCards</item>
+        <item>Hist 102 FlashCards</item>
+    </string-array>
+
+
+</resources>
