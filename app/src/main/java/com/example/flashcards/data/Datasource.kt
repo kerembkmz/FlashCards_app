@@ -17,10 +17,12 @@ class Datasource(val context: Context) {
 
         val cards = mutableListOf<Card>()
         for (i in 0..9) {
-            val card = Card(namesList[i], i.toString(), listOf(
-                "Who painted the Mona Lisa?" to "Leonardo da Vinci",
-                "What is the powerhouse of the cell?" to "Mitochondria"
-            ))
+            val deckDescriptionMap = HashMap<Int, Pair<String, String>>()
+            deckDescriptionMap[0] = "Who painted the Mona Lisa?" to "Leonardo da Vinci"
+            deckDescriptionMap[1] = "What is the powerhouse of the cell?" to "Mitochondria"
+            deckDescriptionMap[2] = "hello" to "merhaba"
+
+            val card = Card(namesList[i], i.toString(), deckDescriptionMap)
             cards.add(card)
         }
 
